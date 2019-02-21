@@ -10,7 +10,7 @@ You can install the package in to a Laravel app that uses [Nova](https://nova.la
 
 
 ```bash
-composer require ericLagarda/novalinkresource
+composer require ericlagarda/novalinkresource
 ```
 
 Then, register your new link in the `tools` method of the `NovaServiceProvider`.
