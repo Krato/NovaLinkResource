@@ -23,13 +23,11 @@ class NovaLinkResource extends Tool
      */
     public function renderNavigation()
     {
-        $data = [
+        return view('NovaLinkResource::navigation', [
             'name' => $this->getMeta('name', 'Nova Link'),
             'to'   => $this->getMeta('to', '/'),
             'icon' => $this->getMeta('icon', null),
-        ];
-
-        return view('NovaLinkResource::navigation', $data);
+        ]);
     }
 
     /**

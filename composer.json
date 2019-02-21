@@ -3,11 +3,21 @@
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "link"
     ],
+    "homepage": "https://github.com/Krato/NovaLinkResource",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Lagarda",
+            "email": "eric@infinety.es",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
