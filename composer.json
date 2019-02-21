@@ -1,6 +1,6 @@
 {
     "name": "ericlagarda/novalinkresource",
-    "description": "A Laravel Nova tool.",
+    "description": "Custom links on your sibar for Laravel Nova.",
     "keywords": [
         "laravel",
         "nova",
