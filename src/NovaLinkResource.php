@@ -33,7 +33,7 @@ class NovaLinkResource extends Tool
     /**
      * Set the name link
      *
-     * @param  array  $name
+     * @param  string  $name
      *
      * @return array
      */
@@ -45,7 +45,7 @@ class NovaLinkResource extends Tool
     /**
      * Set the name link
      *
-     * @param  array  $name
+     * @param  string  $to
      *
      * @return array
      */
@@ -56,7 +56,6 @@ class NovaLinkResource extends Tool
 
     /**
      * @param string $icon
-     * @param string $type
      *
      * @return array
      */
