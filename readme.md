@@ -18,6 +18,13 @@ Then, register your new link in the `tools` method of the `NovaServiceProvider`.
 ```php
 // in app/Providers/NovaServiceProvider.php
 
+[..]
+use EricLagarda\NovaLinkResource\NovaLinkResource;
+
+class NovaServiceProvider extends NovaApplicationServiceProvider
+{
+
+[..]
 
 public function tools()
 {
@@ -37,6 +44,10 @@ public function tools()
                 ->name('Custom link 2')
                 ->to('/resources/users/4'),
     ];
+}
+
+[..]
+
 }
 ```
 
