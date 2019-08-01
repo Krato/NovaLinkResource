@@ -27,6 +27,8 @@ class NovaLinkResource extends Tool
             'name' => $this->getMeta('name', 'Nova Link'),
             'to'   => $this->getMeta('to', '/'),
             'icon' => $this->getMeta('icon', null),
+            'external' => $this->getMeta('external', false),
+            'target' => $this->getMeta('target', '_self'),
         ]);
     }
 
