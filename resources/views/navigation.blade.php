@@ -1,5 +1,10 @@
-<router-link tag="h3" :to="{ path: '{{ $to }}' }" class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
-    
+@if($external)
+    <a href="{{$to}}" target="{{$target}}" class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
+@else
+    <router-link tag="h3" :to="{ path: '{{ $to }}' }" class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
+
+@endif
+
     @if($icon)
     	{!! $icon !!}
     @else
@@ -9,4 +14,10 @@
     <span class="sidebar-label">
         {{ $name }}
     </span>
-</router-link>
+
+@if(! $external)
+    </router-link>
+@else
+    </a>
+@endif
+
