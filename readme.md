@@ -1,3 +1,7 @@
+## ATENTION - Not working in Nova > 3.18
+
+Some changes in the core of Nova 3.18 make the tool unavailable. https://github.com/laravel/nova-issues/issues/3142
+
 # Nova Link Resource
 
 A custom tool to generate Resource Links in your sidebar. You are able to set a name, link and an icon.
