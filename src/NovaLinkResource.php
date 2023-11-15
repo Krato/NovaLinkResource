@@ -2,10 +2,12 @@
 
 namespace EricLagarda\NovaLinkResource;
 
+use Laravel\Nova\Metable;
 use Laravel\Nova\Tool;
 
 class NovaLinkResource extends Tool
 {
+    use Metable;
     /**
      * Perform any tasks that need to happen when the tool is booted.
      *
